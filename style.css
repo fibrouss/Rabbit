@@ -1,0 +1,24 @@
+/*
+ * Custom CSS for Fibrous Rabbit Farm
+ * Place this in a file named style.css
+ */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7fbf8; 
+    scroll-behavior: smooth;
+}
+
+.color-primary { background-color: #059669; } 
+.color-secondary { color: #059669; }
+
+.btn-primary {
+    background-color: #059669;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(5, 150, 105, 0.4);
+}
+
+.btn-primary:hover {
+    background-color: #047857;
+    box-shadow: 0 10px 15px -3px rgba(5, 150, 105, 0.5);
+}
+
